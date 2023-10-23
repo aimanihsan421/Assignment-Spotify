@@ -1,0 +1,166 @@
+
+
+
+.center-text h2{
+  margin-top: 40px;
+  color: #111 ;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.center-text span{
+ color: green;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto ));
+  gap: 2rem;
+
+}
+
+.row{
+  position: relative;
+  transition: all .40s;
+
+}
+
+.row img{
+  width: 250px;
+  height: 250px;
+}
+
+.row img:hover{
+  transform: scale(0.9) ;
+}
+
+.product-text h5{
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: rgb(168, 12, 64);
+  padding: 3px 10px;
+
+}
+
+.rating i{
+  color: #ff8c00;
+  font-size: 18px;
+}
+
+.price h4{
+  color: #000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400px;
+
+}
+
+.price p{
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*Footer*/
+
+footer{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	width: 100%;
+	background: #fafafa;
+}
+
+footer .footer_main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .footer_main .tag{
+	margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+	border-radius: 50px;
+	width: 100px;
+	margin-bottom: 10px;
+	border: solid 2px black;
+}
+
+footer .footer_main .tag p{
+	width: 250px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+footer .footer_main .tag h1{
+	font-size: 25px;
+	margin: 25px 0;
+	color: #000;
+}
+
+footer .footer_main .tag a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+	margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+	margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+	width: 230px;
+	height: 30px;
+	background: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+	width: 200px;
+	padding: 2px 0;
+	position: relative;
+	top: 17%;
+	left: 6%;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+	padding: 7px 15px;
+	background: green;
+	border: none;
+	margin-top: 15px;
+	border-radius: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+footer .end{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	color: #000;
+}
+
+footer .end span{
+	color: green;
+	margin-left: 10px;
+}
+

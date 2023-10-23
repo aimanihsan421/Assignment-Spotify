@@ -1,0 +1,215 @@
+
+
+.main-home{
+
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+	background-image:url(src/assets/wallpaper.jpg);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+	background-color: rgb(235, 148, 148);
+
+
+}
+
+.main-text h5{
+  color:green;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.main-text h1 {
+  color: green;
+  font-size: 70px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-weight: 800;
+  
+}
+
+.main-text p{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.main-btn{
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid green;
+  padding: 12px 25px ;
+  transition: all .42s ease;
+	text-decoration: none;
+	
+
+
+}
+
+.main-btn:hover {
+  background-color: green;
+  color: rgb(255, 255, 255);
+}
+
+.main-btn i{
+  vertical-align: middle;
+}
+
+.reviews{
+	width: 100%;
+	height: auto;
+}
+
+.reviews h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 55px;
+}
+
+.reviews .review_box{
+	width: 95%;
+	height: 50vh;
+	margin: 15px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reviews .review_box .review_card{
+	width: 400px;
+	height: 320px;
+	box-shadow: 0 0 8px blue;
+	padding: 15px;
+	margin: 0 12px;
+}
+
+.reviews .review_box .review_card i{
+	float: right;
+	font-size: 120px;
+	position: relative;
+	bottom: 20px;
+	color: #eaeaea;
+}
+
+.reviews .review_box .review_card .card_top img{
+	width: 80px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.reviews .review_box .review_card .card p{
+	margin: 10px 0 10px 0;
+	text-align: justify;
+	line-height: 22px;
+}
+
+.reviews .review_box .review_card .card .review_icon i{
+	font-size: 16px;
+	float: left;
+	margin-top: 20px;
+	color: blue;
+	padding: 0 1px;
+}
+
+
+
+/*Footer*/
+
+footer{
+
+	margin-bottom: 0px;
+	width: 100%;
+	background: #fafafa;
+}
+
+footer .footer_main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .footer_main .tag{
+	margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+	border-radius: 50px;
+	width: 100px;
+	margin-bottom: 10px;
+	border: solid 2px black;
+}
+
+footer .footer_main .tag p{
+	width: 250px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+footer .footer_main .tag h1{
+	font-size: 25px;
+	margin: 25px 0;
+	color: #000;
+}
+
+footer .footer_main .tag a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+	margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+	margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+	width: 230px;
+	height: 30px;
+	background: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+	width: 200px;
+	padding: 2px 0;
+	position: relative;
+	top: 17%;
+	left: 6%;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+	padding: 7px 15px;
+	background: green;
+	border: none;
+	margin-top: 15px;
+	border-radius: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+footer .end{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	color: #000;
+}
+
+footer .end span{
+	color: green;
+	margin-left: 10px;
+}

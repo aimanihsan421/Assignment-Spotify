@@ -1,0 +1,245 @@
+
+body {
+  
+  font-family: Arial;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  margin-top: 20%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  margin-top: 20%;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Footer*/
+
+footer{
+  position: absolute;
+
+  margin-top: 100px;
+	margin-bottom: 0px;
+	width: 100%;
+	background: #fafafa;
+}
+
+footer .footer_main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .footer_main .tag{
+	margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+	border-radius: 50px;
+	width: 100px;
+	margin-bottom: 10px;
+	border: solid 2px black;
+}
+
+footer .footer_main .tag p{
+	width: 250px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+footer .footer_main .tag h1{
+	font-size: 25px;
+	margin: 25px 0;
+	color: #000;
+}
+
+footer .footer_main .tag a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+	margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+	margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+	width: 230px;
+	height: 30px;
+	background: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+	width: 200px;
+	padding: 2px 0;
+	position: relative;
+	top: 17%;
+	left: 6%;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+	padding: 7px 15px;
+	background: green;
+	border: none;
+	margin-top: 15px;
+	border-radius: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+footer .end{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	color: #000;
+}
+
+footer .end span{
+	color: green;
+	margin-left: 10px;
+}
+
+
+/*Books*/
+
+.featured_boks{
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.featured_boks h1{
+  display: flex;
+  color: green;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.featured_boks .featured_book_box{
+  width: 95%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.featured_boks .featured_book_box .featured_book_card{
+  width: 250px;
+  height: 420px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919191;
+  margin: auto 20px;
+}
+
+.featured_boks .featured_book_box .featured_book_card:hover{
+  box-shadow: 0 0 5px green;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img img{
+  width: 150px;
+  height: 200px;
+  transition: transform 1s ease; 
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img img:hover{
+  width: 200px;
+  transform: scale(1.1);
+
+
+}
+
+
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .writer{
+  color: #919191;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories{
+  color: green;
+  margin-top: 8px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price{
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price sub{
+  font-weight: 100;
+  padding: 0 5px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn{
+  padding: 8px 20px;
+  border: 2px solid green;
+  text-decoration: none;
+  color: #000;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn:hover{
+  background-color: green;
+  color: white;
+}
+
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb{
+  background: green;
+  border-radius: 10px;
+}
